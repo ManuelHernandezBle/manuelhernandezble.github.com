@@ -20,8 +20,8 @@ links.forEach(function(link){
  content.classList.add("fadeOutUp");
  content.classList.add("animated");
 
- setTimeout(function(){location.href = "/boletines";},600);
-
+ // setTimeout(function(){location.href = "/";},600); //local
+ setTimeout(function(){location.href = "/boletines";},600); //publicada en github
 return false;
 });
 
